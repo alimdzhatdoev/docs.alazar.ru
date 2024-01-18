@@ -1,0 +1,32 @@
+.orderCart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100vh;
+    background-color: #014483;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.closeCart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeCart img{
+    width: 100%;
+}
+
+.formShow{
+    width: 100%;
+}

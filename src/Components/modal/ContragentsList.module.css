@@ -1,0 +1,44 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    position: absolute;
+    background-color: #fff;
+    top: 45px;
+    left: 0;
+    box-shadow: 0 0 10px #00000049;
+    padding: 5px 10px 10px 10px;
+    gap: 10px;
+}
+
+.modal_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.modal_list__item {
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.modal_list__item:hover{
+    background-color: #ececec;
+}
+
+.modal::-webkit-scrollbar {
+    width: 0px;
+}
+
+.modal_list::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.modal_list::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 10px;
+}

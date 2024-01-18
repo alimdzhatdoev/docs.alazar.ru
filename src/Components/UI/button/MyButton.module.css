@@ -1,0 +1,22 @@
+.MyButton{
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #002F5B;
+    color: #002F5B;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.MyButton:hover{
+    background-color: #002F5B;
+    color: #fff;
+}
+
+.MyButton:disabled{
+    background-color: #002F5B;
+    color: #fff;
+    opacity: 0.5;
+    cursor: unset;
+}

@@ -1,0 +1,15 @@
+.myForm{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.inputBlock{
+    display: flex;
+    gap: 20px;
+    width: calc(100% - 200px);
+}
+.modalShowBlocks{
+    position: relative;
+}
